@@ -93,7 +93,7 @@ The Klei Generator asks you what type of module you want to build, then you pick
 * Automounting of API routes using [exctrl](https://npmjs.org/package/exctrl)
 * No more editing of your html layout when adding scripts and stylesheets to your project, thanks to [grunt-injector](https://npmjs.org/package/grunt-injector)
   - This includes Bower installed components (which have a main section in their bower.json)
-* Both frontend and backend unit testing with [Mocha](http://visionmedia.github.io/mocha/) and [Chai](http://chaijs.com/)!
+* Both frontend and backend unit testing with [Mocha](http://mochajs.org/) and [Chai](http://chaijs.com/)!
   - Frontend tests is run with [Karma](http://karma-runner.github.io/)
   - All necessary files are injected automatically into your `karma.conf.js` with the [grunt-injector](https://npmjs.org/package/grunt-injector)
 * Subgenerators to easy add new API's, etc. (see Subgenerator section below)
